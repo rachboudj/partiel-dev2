@@ -6,3 +6,5 @@ print_r($_POST);
 echo "</pre>";
 
 ?>
+
+<button><a href="./comptes.php">Voir les messages</a></button>

@@ -11,7 +11,7 @@ $comptes = $query->fetchAll();
 foreach ($comptes as $compte) { ?>
 
 <span><?= $compte['nom'] ?></span>
-<span><?= $compte['mail'] ?></span>
+<span><?= $compte['email'] ?></span>
 <span><?= $compte['message'] ?></span>
 
 <?php
